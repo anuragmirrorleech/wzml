@@ -650,9 +650,9 @@ except KeyError:
 try:
     AUTHOR_URL = getConfig('AUTHOR_URL')
     if len(AUTHOR_URL) == 0:
-        AUTHOR_URL = 'https://t.me/WeebZone_updates'
+        AUTHOR_URL = 'https://t.me/MIRRORLEECH_OBOT'
 except KeyError:
-    AUTHOR_URL = 'https://t.me/WeebZone_updates'
+    AUTHOR_URL = 'https://t.me/MIRRORLEECH_OBOT'
 try:
     GD_INFO = getConfig('GD_INFO')
     if len(GD_INFO) == 0:
@@ -677,7 +677,7 @@ try:
         raise KeyError
 except:
     START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_URL = 'https://t.me/AM_ROBOTS'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
@@ -686,7 +686,7 @@ try:
         raise KeyError
 except:
     START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_URL = 'https://t.me/MIRRORLEECH_OBOT'
 try:
     CREDIT_NAME = getConfig('CREDIT_NAME')
     if len(CREDIT_NAME) == 0:
